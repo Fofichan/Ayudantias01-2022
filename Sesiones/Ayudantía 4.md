@@ -1,5 +1,5 @@
 # Ayudantía 4
-## Antes: [Ayudantía 3]
+## Antes: [Ayudantía 3](https://github.com/Fofichan/Ayu01-2022/blob/main/Sesiones/Ayudant%C3%ADa%203.md)
 
 ### Repaso: While
 ![../../_images/while.jpg](https://www2.eii.uva.es/fund_inf/cpp/_images/while.jpg)
