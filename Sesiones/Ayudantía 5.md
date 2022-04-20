@@ -1,7 +1,7 @@
 # Ayudantía 5
 ## Antes: [[Ayudantía 4]]
 
-![[For-Loop.jpg]]
+![For-Loop.jpg](https://github.com/Fofichan/Ayu01-2022/blob/main/zz.%20Recursos/For-Loop.jpg)
 
 ### Ejercicio de intro: [Pirámide](https://github.com/Fofichan/Ayu01-2022/blob/main/z.%20Snippets/Pir%C3%A1mide.md)
 ### Ejercicio Nº1: [Suma de multiplicaciones]( https://github.com/Fofichan/Ayu01-2022/blob/main/z.%20Snippets/Suma%20de%20multiplicaciones.md )
