@@ -5,15 +5,15 @@
 ## Reglas y normas
 ## Introducción
 ### Entornos de Desarrollo Integrado (IDE)
-### [[Hello, World!|Hello, World!]]
-### [[Input y Output]]
+### [Hello, World!](https://github.com/Fofichan/Ayu01-2022/blob/main/z.%20Snippets/Hello%2C%20World!.md)
+### [[Input y Output](https://github.com/Fofichan/Ayu01-2022/blob/main/z.%20Snippets/Input%20y%20Output.md)
 ## Tipos de variables:
 - Int ("%d"): 32 Bit integer  
 - Long ("%ld"): 64 bit integer 
 - Char ("%c"): Character type 
 - Float ("%f"): 32 bit real value 
 - Double ("%lf"): 64 bit real value 
-### [[Rangos de datos]]
+ [Rangos de datos](https://github.com/Fofichan/Ayu01-2022/blob/main/zz.%20Recursos/Rangos%20de%20tipos%20de%20variables.png)
 ### Práctica:
 Trabajas en una caja registradora. La caja te muestra el monto que debe pagar el cliente. El cliente te entregará un monto en efectivo para pagar su compra.
 
