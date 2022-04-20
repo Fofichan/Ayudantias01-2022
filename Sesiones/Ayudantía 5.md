@@ -1,5 +1,5 @@
 # Ayudantía 5
-## Antes: [[Ayudantía 4]]
+## Antes: [Ayudantía 4](https://github.com/Fofichan/Ayu01-2022/blob/main/Sesiones/Ayudant%C3%ADa%204.md)
 
 ![For-Loop.jpg](https://github.com/Fofichan/Ayu01-2022/blob/main/zz.%20Recursos/For-Loop.jpg)
 
