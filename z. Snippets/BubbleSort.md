@@ -10,6 +10,7 @@ Al igual que las burbujas de aire en el agua que ascienden hacia la superficie, 
 2. Si el primer elemento es mayor que el segundo elemento, intercambian posición.
 3. Comparar el segundo y tercer elemento. Intercambiarlos si es que no están en orden.
 4. Repetir pasos de 1 al 3 hasta el último elemento.
+
 ![](https://github.com/Fofichan/Ayu01-2022/blob/main/zz.%20Recursos/Pasted%20image%2020220607030509.png)
 
 El mismo proceso se repite por las iteraciones restantes. Después de cada iteración el elemento más grande dentro de los elementos no ordenados es ubicado al final.
@@ -17,9 +18,11 @@ El mismo proceso se repite por las iteraciones restantes. Después de cada itera
 ![](https://github.com/Fofichan/Ayu01-2022/blob/main/zz.%20Recursos/Pasted%20image%2020220607032024.png)
 
 Por cada iteración, la comparación se realiza hasta el último elemento no ordenado.
+
 ![](https://github.com/Fofichan/Ayu01-2022/blob/main/zz.%20Recursos/Pasted%20image%2020220607031830.png)
 
 El arreglo queda ordenado cuando todos los elementos son ubicados en su posición correcta.
+
 ![](https://github.com/Fofichan/Ayu01-2022/blob/main/zz.%20Recursos/Pasted%20image%2020220607032142.png)
 ## Implementación
 ```c++
