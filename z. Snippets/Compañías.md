@@ -7,8 +7,7 @@ C. Programar la función **MayorDemanda( T1, T2, T3, N)** que retorne el tipo de
 D. Agregar al programa el llamado a las funciones descritas en los puntos anteriores, imprimiento el **total vendido en pesos** y **el tipo de aceite con mayor demanda**.
 
 
-
-**Solución:**
+%%
 ´´ć++
 #include <iostream>
 #include <string>
@@ -76,8 +75,8 @@ int main(){
 }
 
 ´´´
+%%
 
 
 
 
--
