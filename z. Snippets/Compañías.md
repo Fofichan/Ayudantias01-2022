@@ -6,3 +6,78 @@ B. Programar la función **TotalFacturado(T1, T2, T3, N)**, que calcule e imprim
 C. Programar la función **MayorDemanda( T1, T2, T3, N)** que retorne el tipo de combustible con mayor cantidad de litros vendidos.
 D. Agregar al programa el llamado a las funciones descritas en los puntos anteriores, imprimiento el **total vendido en pesos** y **el tipo de aceite con mayor demanda**.
 
+
+
+**Solución:**
+
+#include <iostream>
+#include <string>
+#include <iomanip>
+using namespace std;
+
+float totalFacturado(float T1[], float T2[], float T3[], int N){
+
+	float res;
+	float tfact_dia[3]={0,0,0};
+	for (int i = 0; i < N; i++){
+		tfact_dia[0] +=T1[i];
+		tfact_dia[1] +=T2[i];
+		tfact_dia[2] +=T3[i];
+	}
+	
+	cout << "Litros Tipo 1: " << tfact_dia[0] << " Facturado: " << tfact_dia[0]*5000 <<endl;
+	cout << "Litros Tipo 2: " << tfact_dia[1] << " Facturado: " << tfact_dia[1]*4000 <<endl;
+	cout << "Litros Tipo 3: " << tfact_dia[2] << " Facturado: " << tfact_dia[2]*3000 <<endl;
+
+	res = tfact_dia[0]*5000 + tfact_dia[1]*4000 * tfact_dia[2]*3000;
+	return res;
+}
+
+int mayorDemanda (float T1[], float T2[], float T3[], int N){
+	
+	float tfact_dia[3]={0,0,0};
+	for (int i = 0; i < N; i++){
+		tfact_dia[0] +=T1[i];
+		tfact_dia[1] +=T2[i];
+		tfact_dia[2] +=T3[i];
+	}
+
+	if(tfact_dia[0] > tfact_dia[1] && tfact_dia[0] > tfact_dia[2]){
+		return 1;
+	}
+	else if(tfact_dia[1] > tfact_dia[0] && tfact_dia[1] > tfact_dia[2]){
+		return 2;
+	}
+	else
+		return 3;
+}
+
+int main(){
+	int N = 5;
+	float T1[N], T2[N],T3[N];
+	cout << "Ingrese los datos:" <<endl;
+	for (int i = 0; i < N; i++){
+		cout <<"Ingrese litros de día " << i+1 << ":" << " "<<endl;
+		cout <<"Tipo 1: ";
+		cin>>T1[i];
+		cout <<"Tipo 2: ";
+		cin>> T2[i];
+		cout <<"Tipo 3: ";
+		cin>> T3[i];
+	}
+
+	float TFacturado = totalFacturado(T1,T2,T3,N);
+	float idMayor = mayorDemanda(T1,T2,T3,N);
+
+	cout << "Total Facturado: " << TFacturado <<endl;
+	cout << "Aceite con mayor demanda: " << idMayor <<endl;
+	
+	return 0;
+}
+
+
+
+
+
+
+-
