@@ -8,7 +8,7 @@ D. Agregar al programa el llamado a las funciones descritas en los puntos anteri
 
 
 %%
-´´ć++
+```c++
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -74,7 +74,7 @@ int main(){
 	return 0;
 }
 
-´´´
+```
 %%
 
 
