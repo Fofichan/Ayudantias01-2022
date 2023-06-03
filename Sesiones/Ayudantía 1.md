@@ -6,7 +6,7 @@
 ## Introducción
 ### Entornos de Desarrollo Integrado (IDE)
 ### [Hello, World!](https://github.com/Fofichan/Ayu01-2022/blob/main/z.%20Snippets/Hello%2C%20World!.md)
-### [[Input y Output](https://github.com/Fofichan/Ayu01-2022/blob/main/z.%20Snippets/Input%20y%20Output.md)
+### [Input y Output](https://github.com/Fofichan/Ayu01-2022/blob/main/z.%20Snippets/Input%20y%20Output.md)
 ## Tipos de variables:
 - Int ("%d"): 32 Bit integer  
 - Long ("%ld"): 64 bit integer 
